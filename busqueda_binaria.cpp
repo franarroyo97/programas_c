@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-#esta funcion necesita que el vector que se la posa este ordenado
+#esta funcion necesita que el vector que se la pasa este ordenado
 bool busqueda_binaria(int vector[],int utiles_vector,int argumento_a_buscar){
 	int izq=0;
 	int der=utiles_vector;
