@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+#esta funcion necesita que el vector que se la posa este ordenado
 bool busqueda_binaria(int vector[],int utiles_vector,int argumento_a_buscar){
 	int izq=0;
 	int der=utiles_vector;
@@ -25,6 +26,7 @@ bool busqueda_binaria(int vector[],int utiles_vector,int argumento_a_buscar){
 	}
 	return encontrado;
 }
+#ordena la ceadena por el metodo de insercion
 void ordenar_insercion(int vector[],int utiles_vector){
 	int izq=0;
 	int i=0;
